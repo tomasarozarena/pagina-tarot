@@ -1,0 +1,342 @@
+$primary: #4b0c3b;
+$danger: #626b52;
+$success: #277647;
+$info: #E8E1DB;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $danger,
+  "success":    $success,
+  "info":       $info,
+);
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a.nav-link{
+    color: white;
+}
+
+
+
+
+body{
+    background-image: url(https://images6.alphacoders.com/527/527937.jpg);
+    background-repeat: no-repeat;  
+}
+
+
+/*-----------------INDEX-------------------------------------------------------------------------------*/
+
+
+/*--------------contenedor index----*/
+
+
+
+.contenedor_principal_index{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+
+    .carta_principal{
+        height: 150px;
+        width: 100px;
+        margin: 0px auto;
+        margin-top: 15px;
+        border-radius: 10px;
+        background-color: transparent;
+
+        a{
+            text-decoration: none;
+        }
+
+        img{
+            height: 150px;
+            width: 100px;
+        }
+
+        p{
+            text-align: center;
+            font-weight: 500;
+            
+
+        }
+
+    }
+
+}
+
+.contenedor_cartas_index{
+    background-color: transparent;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .carta{
+        background-color: transparent;
+        height: 250px;
+        width: 150px;
+        margin-top: 20px;
+
+        a{
+            text-decoration: none;
+        }
+
+        img{
+            height: 220px;
+            width: 150px;
+        }
+
+
+        h2{
+            text-align: center;
+            font-size: 17px;
+            
+        }
+
+
+    }
+}
+
+.footer_index{
+    background-color: $primary;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: $info;
+    }
+
+}
+
+
+/*-----------------GALERIA-------------------------------------------------------------------------------*/
+
+.contenedor_galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 153px;
+    padding: 10px;
+    grid-gap: 5px;
+
+    .item_galeria{
+        border-radius: 10px;
+        
+
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+
+
+        }
+    }
+
+}
+
+.footer_galeria{
+    background-color: $primary;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: $info;
+    }
+
+
+}
+
+
+
+/*-----------------HISTORIA-------------------------------------------------------------------------------*/
+
+.contenedor_imagen_historia{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+
+    img{
+        height: 400px;
+        width: 95%;
+        border-radius: 5px;
+    }
+}
+
+.contenedor_historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 23px;
+        margin-top: 15px;
+    }
+
+    .contenedor_historia_texto{
+        padding: 8px;
+
+
+        p{
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+}
+
+
+.footer_historia{
+    background-color: $primary;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: $info;
+    }
+
+}
+
+
+
+
+
+
+/*-----------------LECTURA INTERACTIVA-------------------------------------------------------------------------------*/
+
+.contenedor_lectura_texto{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+    p{
+        font-size: 20px;
+        color: $info;
+        font-weight: 450;
+        background-color: $primary;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+
+}
+
+
+.contenedor_iframe_lectura{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer_lectura_interactiva{
+    background-color: $primary;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 224px;
+
+
+    p{
+        color: $info;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
