@@ -269,6 +269,68 @@ body{
 
 
 
+/*-----------------CONSULTAS-------------------------------------------------------------------------------*/
+
+
+.contenedor_red_maestro{
+
+
+    h1{
+        font-size: 25px;
+        font-weight: 500px;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .red_contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 40px;
+
+
+
+
+
+        img{
+            height: 100px;
+            width: 100px;
+            margin-top: 40px
+        }
+    }
+
+
+}
+
+.footer_consultas{
+    background-color: $primary;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 161px;
+
+    p{
+        color: $info;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
